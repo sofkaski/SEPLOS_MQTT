@@ -87,7 +87,7 @@ read_serdata()
 		get_div 100 2
 		echo "${N}"
 	else
-		echo "Response: \"$rdata\""
+		echo "$rdata"
 	fi
 
 }
